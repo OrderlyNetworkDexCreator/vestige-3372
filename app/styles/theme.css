@@ -1,5 +1,5 @@
 :root {
-  --oui-font-family: 'Raleway', sans-serif;
+  --oui-font-family: 'Montserrat', sans-serif;
   --oui-font-size-base: 16px;
 
   /* colors */
@@ -93,7 +93,8 @@
   --oui-spacing-lg: 1.5rem;
   --oui-spacing-xl: 2rem;
 }
+
 html, body {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   font-size: 16px !important;
 }
