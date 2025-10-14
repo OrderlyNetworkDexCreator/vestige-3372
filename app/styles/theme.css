@@ -1,5 +1,5 @@
 :root {
-  --oui-font-family: 'Montserrat', sans-serif;
+  --oui-font-family: 'Ubuntu', sans-serif;
   --oui-font-size-base: 16px;
 
   /* colors */
@@ -95,6 +95,6 @@
 }
 
 html, body {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Ubuntu', sans-serif !important;
   font-size: 16px !important;
 }
