@@ -1,9 +1,9 @@
 :root {
-  --oui-font-family: 'Ubuntu', sans-serif;
+  --oui-font-family: 'Raleway', sans-serif;
   --oui-font-size-base: 16px;
 
   /* colors */
---oui-color-primary: 221 184 255;
+  --oui-color-primary: 221 184 255;
   --oui-color-primary-light: 240 221 255;
   --oui-color-primary-darken: 192 132 252;
   --oui-color-primary-contrast: 0 0 0;
@@ -51,8 +51,9 @@
   --oui-color-trading-loss-contrast: 255 255 255;
   --oui-color-trading-profit: 34 197 94;
   --oui-color-trading-profit-contrast: 255 255 255;
+
   /* gradients */
---oui-gradient-primary-start: 192 132 252;
+  --oui-gradient-primary-start: 192 132 252;
   --oui-gradient-primary-end: 221 184 255;
 
   --oui-gradient-secondary-start: 107 114 128;
@@ -94,6 +95,6 @@
 }
 
 html, body {
-  font-family: 'Ubuntu', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
   font-size: 16px !important;
 }
