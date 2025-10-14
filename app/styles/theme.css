@@ -1,15 +1,14 @@
 :root {
-  --oui-font-family: 'Raleway', sans-serif;
+  --oui-font-family: 'Ubuntu', sans-serif;
   --oui-font-size-base: 16px;
-  --oui-font-weight-bold: 600;
 
   /* colors */
-  --oui-color-primary: 230 190 255;
+  --oui-color-primary: 221 184 255;
   --oui-color-primary-light: 240 221 255;
-  --oui-color-primary-darken: 180 140 240;
+  --oui-color-primary-darken: 192 132 252;
   --oui-color-primary-contrast: 0 0 0;
 
-  --oui-color-link: 230 190 255;
+  --oui-color-link: 221 184 255;
   --oui-color-link-light: 240 221 255;
 
   --oui-color-secondary: 255 255 255;
@@ -46,16 +45,16 @@
   --oui-color-base-10: 3 7 18;
 
   --oui-color-base-foreground: 248 250 252;
-  --oui-color-line: 180 180 180;
+  --oui-color-line: 148 163 184;
 
-  --oui-color-trading-loss: 240 100 120;
+  --oui-color-trading-loss: 248 113 113;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 50 200 100;
+  --oui-color-trading-profit: 34 197 94;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
-  --oui-gradient-primary-start: 180 140 240;
-  --oui-gradient-primary-end: 230 190 255;
+  --oui-gradient-primary-start: 192 132 252;
+  --oui-gradient-primary-end: 221 184 255;
 
   --oui-gradient-secondary-start: 107 114 128;
   --oui-gradient-secondary-end: 156 163 175;
@@ -66,8 +65,8 @@
   --oui-gradient-danger-start: 220 38 38;
   --oui-gradient-danger-end: 252 165 165;
 
-  --oui-gradient-brand-start: 240 240 245;
-  --oui-gradient-brand-end: 230 190 255;
+  --oui-gradient-brand-start: 229 231 235;
+  --oui-gradient-brand-end: 221 184 255;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
@@ -80,83 +79,21 @@
 
   /* rounded */
   --oui-rounded-sm: 2px;
-  --oui-rounded: 6px;
-  --oui-rounded-md: 8px;
+  --oui-rounded: 4px;
+  --oui-rounded-md: 6px;
   --oui-rounded-lg: 8px;
   --oui-rounded-xl: 12px;
   --oui-rounded-2xl: 16px;
   --oui-rounded-full: 9999px;
 
   /* spacing */
-  --oui-spacing-xs: 1rem;
-  --oui-spacing-sm: 4rem;
-  --oui-spacing-md: 5rem;
-  --oui-spacing-lg: 12rem;
-  --oui-spacing-xl: 16rem;
+  --oui-spacing-xs: 1.5rem;
+  --oui-spacing-sm: 3.5rem;
+  --oui-spacing-md: 7.5rem;
+  --oui-spacing-lg: 15rem;
+  --oui-spacing-xl: 30rem;
 }
 
-html, body {
-  font-family: var(--oui-font-family) !important;
-  font-size: var(--oui-font-size-base) !important;
-  line-height: 1.5 !important;
-}
-
-/* Custom styles for improvements */
-header {
-  background: rgba(var(--oui-color-base-9), 1) !important; /* Darker gray for header */
-  background-blend-mode: multiply !important;
-  border-bottom: 1px solid rgba(var(--oui-color-line), 0.5) !important;
-  padding: var(--oui-spacing-md) !important; /* Expanded padding for header */
-}
-
-.logo {
-  filter: brightness(1.2) !important; /* Enhance logo visibility */
-}
-
-button, .panel {
-  border-radius: var(--oui-rounded-md) !important;
-  transition: box-shadow 0.3s ease !important;
-  padding: var(--oui-spacing-sm) var(--oui-spacing-md) !important; /* More padding for buttons and panels */
-}
-
-button:hover, .panel:hover {
-  box-shadow: 0 2px 4px rgba(var(--oui-color-base-10), 0.1) !important;
-}
-
-.order-book tr:nth-child(even) {
-  background: rgba(var(--oui-color-base-3), 0.05) !important;
-}
-
-.order-book tr {
-  padding: var(--oui-spacing-sm) 0 !important; /* Increased row padding */
-}
-
-.chart-grid {
-  stroke: rgba(var(--oui-color-line), 0.5) !important;
-}
-
-.popup, .modal, .connect-wallet, .language-selector {
-  padding: var(--oui-spacing-lg) !important;
-  margin: var(--oui-spacing-md) auto !important;
-  min-width: 20rem !important; /* Ensure popups have enough width */
-  z-index: 1000 !important; /* High z-index to prevent clipping */
-}
-
-@media (max-width: 768px) {
-  .order-book {
-    display: block !important; /* Stack for mobile */
-    padding: var(--oui-spacing-xl) !important; /* Even more padding on mobile */
-  }
-  
-  .chart {
-    margin-bottom: var(--oui-spacing-lg) !important;
-  }
-
-  .popup, .modal {
-    padding: var(--oui-spacing-md) !important;
-    margin: var(--oui-spacing-sm) !important;
-  }
-}
 html, body {
   font-family: 'Ubuntu', sans-serif !important;
   font-size: 16px !important;
