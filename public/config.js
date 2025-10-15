@@ -25,7 +25,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_TWITTER_URL": "https://x.com/vestigedex",
   "VITE_SEO_SITE_NAME": "Vestige DEX",
   "VITE_SEO_SITE_DESCRIPTION": "Vestige DEX: Trade crypto perps with precision—seamless, data-driven tools for spot-on strategies. Unlock transparent execution, ironclad security, and low-fee futures & options that put you ahead in every market move.",
-  "VITE_SEO_SITE_URL": "https://vestigedex.com",
+  "VITE_SEO_SITE_URL": "https://vestigedex.io",
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "@VestigeDEX",
@@ -34,5 +34,5 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_AVAILABLE_LANGUAGES": "en,zh,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl",
   "VITE_USE_CUSTOM_PNL_POSTERS": "true",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "1",
-  "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#ddb8ff\",\"downColor\":\"#f87171\",\"pnlUpColor\":\"#ddb8ff\",\"pnlDownColor\":\"#f87171\",\"chartBG\":\"#030712\"}"
+  "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#ddb8ff\",\"downColor\":\"#6E0C0C\",\"pnlUpColor\":\"#ddb8ff\",\"pnlDownColor\":\"#6E0C0C\",\"chartBG\":\"#030712\"}"
 };
