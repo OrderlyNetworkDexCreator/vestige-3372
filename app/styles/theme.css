@@ -88,10 +88,10 @@
 
   /* spacing */
   --oui-spacing-xs: 6rem;
-  --oui-spacing-sm: 14rem;
-  --oui-spacing-md: 20.5rem;
-  --oui-spacing-lg: 29.5rem;
-  --oui-spacing-xl: 37rem;
+  --oui-spacing-sm: 10rem;
+  --oui-spacing-md: 20rem;
+  --oui-spacing-lg: 26rem;
+  --oui-spacing-xl: 32rem;
 }
 
 html, body {
