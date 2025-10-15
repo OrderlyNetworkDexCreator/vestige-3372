@@ -32,7 +32,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_SEO_THEME_COLOR": "#ddb8ff",
   "VITE_SEO_KEYWORDS": "dex, crypto, perps, trading, vestige, decentralized exchange, DEX, perpetuals trading, perps exchange, crypto futures, leverage trading, DeFi trading, blockchain exchange, cryptocurrency trading platform, Vestige DEX, algorithmic trading, transparent execution, secure crypto trading, low-fee perps, futures trading, options trading, data-driven trading, precision trading, market outperformance, reputable returns, remnant strategies, crypto derivatives, perpetual swaps, leveraged positions",
   "VITE_AVAILABLE_LANGUAGES": "en,zh,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl",
-  "VITE_USE_CUSTOM_PNL_POSTERS": "true",
-  "VITE_CUSTOM_PNL_POSTER_COUNT": "1",
+  "VITE_USE_CUSTOM_PNL_POSTERS": "false",
+  "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#ddb8ff\",\"downColor\":\"#f87171\",\"pnlUpColor\":\"#ddb8ff\",\"pnlDownColor\":\"f87171\",\"chartBG\":\"#030712\"}"
 };
