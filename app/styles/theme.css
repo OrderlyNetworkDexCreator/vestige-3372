@@ -79,11 +79,11 @@
 
   /* rounded */
   --oui-rounded-sm: 4px;
-  --oui-rounded: 8px;
-  --oui-rounded-md: 10px;
-  --oui-rounded-lg: 14px;
-  --oui-rounded-xl: 16px;
-  --oui-rounded-2xl: 20px;
+  --oui-rounded: 6px;
+  --oui-rounded-md: 8px;
+  --oui-rounded-lg: 10px;
+  --oui-rounded-xl: 12px;
+  --oui-rounded-2xl: 14px;
   --oui-rounded-full: 9999px;
 
   /* spacing */
