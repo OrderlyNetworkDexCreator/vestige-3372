@@ -1,5 +1,5 @@
 :root {
-  --oui-font-family: 'Raleway', sans-serif;
+  --oui-font-family: 'Manrope', sans-serif;
   --oui-font-size-base: 18px;
 
   /* colors */
@@ -87,14 +87,14 @@
   --oui-rounded-full: 9999px;
 
   /* spacing */
-  --oui-spacing-xs: 10rem;
-  --oui-spacing-sm: 18rem;
-  --oui-spacing-md: 25rem;
-  --oui-spacing-lg: 33rem;
+  --oui-spacing-xs: 6rem;
+  --oui-spacing-sm: 14rem;
+  --oui-spacing-md: 20.5rem;
+  --oui-spacing-lg: 29.5rem;
   --oui-spacing-xl: 37rem;
 }
 
 html, body {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
   font-size: 18px !important;
 }
